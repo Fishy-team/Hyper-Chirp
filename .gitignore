@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Secrets (API keys, passwords)
+.env
+
+# Editor settings
+.vscode/
+
+# Logs
+*.log
