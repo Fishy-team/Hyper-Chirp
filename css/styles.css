@@ -44,13 +44,25 @@
    
  }
 
- .button {
-    padding: 1rem;
-    height: 3rem;
-    border: solid;
-    border-radius: 1.4rem;
-    background-color: var(--color-button);
-    color: var(--color-primary);
-    font-size: 1rem;
-    
- }
+/* Feed/Posts section */
+.feed-column {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 20vh;
+   width: 100%;
+}
+.foryou {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 600px;
+   padding: 0rem 2rem;
+   list-style: none;
+   font-family: sans-serif;
+   height: 2rem;
+   margin-top: 0;
+   background-color: var(--color-background);
+   color: var(--color-text-on-primary);
+   border: 1px solid var(--color-secondary-border);
+}
