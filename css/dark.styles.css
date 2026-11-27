@@ -23,10 +23,6 @@
     position: sticky;
  }
 
-.logo {
-
-}
-
  ul {
     display: flex;
     align-items: center;
@@ -41,6 +37,19 @@
     border-bottom-style: groove;
     border-color: var(--color-secondary-border);
  }
+
+ #msg-bottle {
+   height: 3rem;
+   width: 3rem;
+   
+
+ }
+
+ #diver {
+   height: 4rem;
+   width: 4rem;
+ }
+
 
  .button {
     padding: 1rem;
