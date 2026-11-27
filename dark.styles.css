@@ -40,8 +40,6 @@
     color: var(--color-text-on-primary);
     border-bottom-style: groove;
     border-color: var(--color-secondary-border);
-
-   
  }
 
  .button {
@@ -54,3 +52,243 @@
     font-size: 1rem;
     
  }
+ /* left side content styles */
+ .pond-workspace {
+  display: flex;
+  align-items: stretch;
+  min-height: calc(100vh - 64px);
+  padding: 18px 20px;
+  background-color: #141414;
+  color: #f5f5f4;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.left-sidebar {
+  width: 230px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.left-sidebar-top {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pond-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pond-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #e7e5e4;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.pond-nav-item:hover {
+  background-color: rgba(255, 115, 0, 0.12);
+}
+
+.pond-nav-item.active {
+  background-color: #ff7300;
+  color: #141414;
+}
+
+.share-thought-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 999px;
+  background-color: #ff7300;
+  color: #141414;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.share-thought-btn:hover {
+  opacity: 0.94;
+  transform: translateY(-1px);
+}
+
+.your-corner {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.your-corner-heading {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f59e0b;
+}
+
+.university-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 12px;
+  border-radius: 14px;
+  background-color: #1b1918;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.university-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #fafaf9;
+}
+.hi-logo-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 22px;
+  padding: 0;
+  border-radius: 4px;
+  background-color: #141414;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+.university-sub {
+  margin: 0;
+  font-size: 12px;
+  color: #a8a29e;
+}
+
+.students-pill {
+  margin-top: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  color: #fb923c;
+  background-color: rgba(255, 115, 0, 0.12);
+  border: 1px solid rgba(255, 115, 0, 0.25);
+}
+
+.left-sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.pond-vibe-note {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fish-nap {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.fish-emoji {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.fish-zzz {
+  font-size: 11px;
+  font-weight: 700;
+  color: #a8a29e;
+}
+
+.vibe-quote {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #fafaf9;
+}
+
+.vibe-desc {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #a8a29e;
+}
+
+.vibe-links {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #78716c;
+}
+
+.vibe-links a {
+  color: #a8a29e;
+  text-decoration: none;
+}
+
+.vibe-links a:hover {
+  color: #ff7300;
+}
+
+.sidebar-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar-gear-btn,
+.sidebar-mode-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #1b1918;
+  color: #e7e5e4;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sidebar-gear-btn {
+  padding: 7px 10px;
+  border-radius: 10px;
+}
+
+.sidebar-mode-pill {
+  padding: 7px 12px;
+  border-radius: 999px;
+}
